@@ -1,0 +1,28 @@
+{
+  "name": "users-service",
+  "version": "1.0.0",
+  "description": "тестовое задание Node.js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinaraMi/Users-Service.git"
+  },
+  "author": "Mikhailova Dinara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinaraMi/Users-Service/issues"
+  },
+  "homepage": "https://github.com/DinaraMi/Users-Service#readme",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "mongoose": "^7.6.2",
+    "winston": "^3.11.0"
+  }
+}
